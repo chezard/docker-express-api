@@ -8,6 +8,6 @@ app.listen(port, () => {
 
 
 app.get('/', (req, res) => {
-    res.send('<h1 style="color:red">Hello World!</h1>')
+    res.send('<h1 style="color:red">Pushed with Jenkins!</h1>')
 })
 
